@@ -1,0 +1,6 @@
+[submodule "icons"]
+	path = icons
+	url = git@github.com:ShellMagick/icons.git
+[submodule "backgrounds"]
+	path = backgrounds
+	url = git@github.com:ShellMagick/background-example.git
