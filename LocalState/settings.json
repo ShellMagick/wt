@@ -50,7 +50,7 @@
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageOpacity": 0.37,
             "backgroundImageStretchMode": "uniform",
-            "colorScheme": "Zenburn",
+            "colorScheme": "AdventureTime",
             "cursorShape": "filledBox",
             "font": 
             {
@@ -63,42 +63,42 @@
         "list": 
         [
             {
-                "backgroundImage": "%WT_BASE%\\backgrounds\\dst\\cmd-light.png",
-                "colorScheme": "One Half Light",
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "backgroundImage": "%WT_BASE%\\backgrounds\\dst\\cmd-dark.png",
+                "colorScheme": "Bubbles",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe /k \"chcp 65001 >nul 2>nul&&set LANG=en_US.utf8&&set LC_ALL=en_US.utf8\"",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "icon": "%WT_BASE%\\icons\\32x32\\cmd-dark.png",
-                "name": "Command Prompt"
+                "name": "Windows CMD \u203b vanilla"
             },
             {
-                "backgroundImage": "%WT_BASE%\\backgrounds\\dst\\cygwin-dark.png",
-                "colorScheme": "AdventureTime",
-                "commandline": "C:\\cygwin64\\Cygwin.bat",
+                "backgroundImage": "%WT_BASE%\\backgrounds\\dst\\cygwin-light.png",
+                "colorScheme": "tokyonight-day",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe /k \"chcp 65001 >nul 2>nul&&set LANG=en_US.utf8&&set LC_ALL=en_US.utf8&&C:\\cygwin64\\Cygwin.bat\"",
                 "guid": "{1262bae0-fb49-4134-b987-1fd5c5448861}",
                 "hidden": false,
                 "icon": "%WT_BASE%\\icons\\32x32\\cygwin-dark.png",
-                "name": "Cygwin",
+                "name": "Cygwin \u203b vanilla",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
                 "backgroundImage": "%WT_BASE%\\backgrounds\\dst\\mingw-light.png",
-                "colorScheme": "tokyonight-day",
-                "commandline": "%GIT_HOME%\\bash.exe",
+                "colorScheme": "Base16 Atelier Cave Light 256",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe /k \"chcp 65001 >nul 2>nul&&set LANG=en_US.utf8&&set LC_ALL=en_US.utf8&&%GIT_HOME%\\bash.exe",
                 "guid": "{53fabbf9-0a96-4568-9a63-3d65a3882754}",
                 "hidden": false,
                 "icon": "%WT_BASE%\\icons\\32x32\\mingw-dark.png",
-                "name": "MinGW",
+                "name": "MinGW \u203b vanilla",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "backgroundImage": "%WT_BASE%\\backgrounds\\dst\\powershell-light.png",
-                "colorScheme": "Base16 Atelier Cave Light 256",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "backgroundImage": "%WT_BASE%\\backgrounds\\dst\\powershell-dark.png",
+                "colorScheme": "Zenburn",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe /k \"chcp 65001 >nul 2>nul&&set LANG=en_US.utf8&&set LC_ALL=en_US.utf8&&%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "icon": "%WT_BASE%\\icons\\32x32\\powershell-light.png",
-                "name": "Windows PowerShell"
+                "name": "PowerShell \u203b vanilla"
             }
         ]
     },
@@ -172,6 +172,29 @@
             "selectionBackground": "#D0D0D0",
             "white": "#000000",
             "yellow": "#755B00"
+        },
+        {
+            "background": "#161D38",
+            "black": "#000000",
+            "blue": "#589DF6",
+            "brightBlack": "#555555",
+            "brightBlue": "#589DF6",
+            "brightCyan": "#3979BC",
+            "brightGreen": "#35BB9A",
+            "brightPurple": "#E75699",
+            "brightRed": "#FA8C8F",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF55",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#1F9EE7",
+            "foreground": "#FFFFFF",
+            "green": "#21B089",
+            "name": "Bubbles",
+            "purple": "#944D95",
+            "red": "#F9555F",
+            "selectionBackground": "#B5D5FF",
+            "white": "#BBBBBB",
+            "yellow": "#FEF02A"
         },
         {
             "background": "#0C0C0C",
